@@ -9,5 +9,6 @@ Goal:
 - Build strong programming fundamentals
 - Solve MORE Problems
 - Become better at problem solving
+<br>
 "This repository will grow as my skills grow."
 
