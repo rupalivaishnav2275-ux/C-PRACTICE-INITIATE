@@ -18,9 +18,7 @@ Goal:
 <br>
 - [x] Start learning C language 
 <br>
--- [ ] Variables 
-<br>
--- [ ] Data Types + Input/Output
+-- [ ] Variables, Data Types + Input/Output
 <br>
 -- [ ] Instructions & Operators
 <br>
@@ -28,7 +26,9 @@ Goal:
 <br>
 -- [ ] Loop Control Statements
 <br>
--- [ ] Functions & Recursion 
+-- [ ] Functions 
+<br>
+-- [ ] Recursion 
 <br>
 -- [ ] Pointers
 <br>
