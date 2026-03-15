@@ -10,7 +10,7 @@ Goal:
 - Solve MORE Problems.
 - Become better at problem solving.
 
-## Learning Progress
+## Learning Progress 📈
 <br>
 - [x] Github Setup
 <br>
@@ -42,12 +42,12 @@ Goal:
 <br>
 -- [ ]Dynamic Memory Allocation 
 
-## Problem Solving Progress
+## Problem Solving Progress 🥇
 Problem Solved: 0 / 200
 
 ![Progress](https://img.shields.io/badge/Problems%20Solved-0%2F200-red)
 
-## Respository Structure
+## Respository Structure 💻
 
 CODING-JOURNEY
 <br>
