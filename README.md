@@ -50,14 +50,14 @@ Problem Solved: 0 / 200
 ## Respository Structure
 
 CODING-JOURNEY
-
+<br>
 |
-
+<br>
 |- C PRACTICE INITIATE 
-
+<br>
 |
-
+<br>
 |- README.md
 
-
+<br>
 "This repository will grow as my skills grow."
