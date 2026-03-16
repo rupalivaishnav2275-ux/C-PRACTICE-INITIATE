@@ -24,10 +24,13 @@ Explaination: Because nums[0] + nums[1] == 9, we return [0,1].
 
 // SOLUTION-
 #include <map>
+#include <vector>
+using namespace std;
+#include <unordered_map>
 class Solution {
     public:
-        vector<int> twoSum(vector<int>& nums, int target) {
-          unordered_map<int, int> mp; // value, index
+       vector<int> twoSum(vector<int>& nums, int target) {
+         unordered_map<int, int> mp; // value, index
             
             for (int i=0 ; i<nums.size(); i++) {
                 int complement = target - nums[i];
@@ -37,6 +40,6 @@ class Solution {
                 mp[nums[i]] = i;
             }
             return {};
-            }
+          }
 };
 
