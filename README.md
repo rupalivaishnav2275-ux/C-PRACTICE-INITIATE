@@ -42,10 +42,6 @@ Goal:
 <br>
 -- [ ]Dynamic Memory Allocation 
 
-## Problem Solving Progress 🥇
-Problem Solved: 0 / 200
-
-![Progress](https://img.shields.io/badge/Problems%20Solved-0%2F200-red)
 
 ## Respository Structure 💻
 
