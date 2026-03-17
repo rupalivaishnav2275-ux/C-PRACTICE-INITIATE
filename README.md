@@ -115,6 +115,23 @@ CODING-JOURNEY
 │   ├─ two_sum.cpp
 │
 └─ README.md
-'''
 
-'*** “A living repository documenting the evolution of my skills and growth as a programmer.” ***'
+```
+
+---
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,100:2c5364&height=2" />
+
+
+<p align="center">
+  <b>─── 🌱 A Living Repository ───</b>
+</p>
+
+<p align="center">
+  <sub>A living repository documenting the evolution of my skills and growth as a programmer.</sub>
+</p>
+
+---
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,100:2c5364&height=2" />
+
+
+
