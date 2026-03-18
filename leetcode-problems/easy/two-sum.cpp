@@ -3,6 +3,7 @@
 // Date: 16 March, 2026
 // Language: C++
 // Tags: Array, Hashmap
+// Pattern: Hashmap lookup (complement search)
 
 /**QUESTION-
  * Given an array of integers nums and integer target, return indices of the two numbers such that they add up to the target.
