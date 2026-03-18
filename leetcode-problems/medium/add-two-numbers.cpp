@@ -1,8 +1,9 @@
 // Problem: Add Two Numbers
 // Platform: LeetCode
-// Data: 16 March, 2026
+// Date: 16 March, 2026
 // Language: C++
-
+// Tags: Linked List, Math, Simulation, Implementation
+// Pattern: Digit-wise addition with carry
 
 /**QUESTION-
  * You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
@@ -11,10 +12,9 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 /*
 Example-
-![Graph](https://raw.githubusercontent.com/USERNAME/REPO/main/images/graph.png)
 Input: l1 = {2,4,3}, l2 = {5,6,4}
 Output: {7,0,8}
-Explaination: 342 + 465 = 807. 
+Explanation: 342 + 465 = 807. 
 */
 
 /* Constraints:
@@ -22,6 +22,24 @@ Explaination: 342 + 465 = 807.
 - 0 <= Node.val <= 9
 - It is guaranteed that the list represents a number that does not have leading zeros.
 */
+
+// Intuition:
+// Since digits are stored in reverse order,
+// We can add corresponding nodes like normal addition.
+// We keep track of carry and move through both lists.
+
+// Approach:
+// 1. Create a dummy node to store result
+// 2. Traverse both linked lists
+// 3. Add values + carry
+// 4. Create new node with (sum % 10)
+// 5. Update carry = sum / 10
+// 6. Move to next nodes
+// 7. Continue until both lists and carry are done
+
+// Complexity:
+// Time Complexity: O(max(n, m))
+// Space Complexity: O(max(n, m)) (for result list)
 
 // SOLUTION-
 class Solution {
@@ -48,6 +66,4 @@ public:
             return dummy->next;
     }
 };
-
-
-     
+ 
